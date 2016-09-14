@@ -1,6 +1,6 @@
 Go support for Protocol Buffers - Google's data interchange format
 Copyright 2010 The Go Authors.
-https://github.com/hailocab/protobuf
+https://github.com/HailoOSS/protobuf
 
 This package and the code it generates requires at least Go 1.2.
 
@@ -33,7 +33,7 @@ To install this code:
 The simplest way is to run go get.
 
 	# Grab the code from the repository and install the proto package.
-	go get -u github.com/hailocab/protobuf/{proto,protoc-gen-go}
+	go get -u github.com/HailoOSS/protobuf/{proto,protoc-gen-go}
 
 The compiler plugin, protoc-gen-go, will be installed in $GOBIN,
 defaulting to $GOPATH/bin.  It must be in your $PATH for the protocol
@@ -119,7 +119,7 @@ To create and play with a Test object from the example package,
 	import (
 		"log"
 
-		"github.com/hailocab/protobuf/proto"
+		"github.com/HailoOSS/protobuf/proto"
 		"path/to/example"
 	)
 

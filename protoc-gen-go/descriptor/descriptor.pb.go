@@ -30,7 +30,7 @@ It has these top-level messages:
 */
 package descriptor
 
-import proto "github.com/hailocab/protobuf/proto"
+import proto "github.com/HailoOSS/protobuf/proto"
 import math "math"
 
 // Reference imports to suppress errors if they are not otherwise used.
